@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="common.css" />
+		<link rel="stylesheet" type="text/css" href="home.css" />
+		<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Abaka</title>
+		<script src="util.js"></script>
+		<script src="home.js"></script>
+	</head>
+
+	<body>
+
+		<center>
+			<form id="pin" method="get">
+				<div id="p1">
+					<h1><span>Game PIN</span></h1><br />
+					<input type="number" inputmode="numeric" class="pin" pattern="\d*" 
+					title="Non-negative integral number" id="join_number" 
+					name="join_number" min="100000" max="999999" autocomplete="off" autofocus>
+				</div>
+
+				<div id="connected_people">
+					<h1><span>Connected users</span></h1><br />
+				</div>
+
+                <br/><br/>
+				
+                <span id="names">
+                </span>
+
+				</br></br></br></br></br></br>
+
+				<div id="start_game">
+					<button type="button" class="move" onclick="location.href='main.html'">
+					Start game </button>
+				</div>
+
+			</form>
+		</center>
+	</body>
+</html>

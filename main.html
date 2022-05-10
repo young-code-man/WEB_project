@@ -1,0 +1,73 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Abaka</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+<script src="main.js"></script>
+    <div id="container">
+        <div id="main">
+            <div class="inner">
+
+                <header id="header">
+                </header>
+
+                <div id="app"></div>
+                <div id="popup">
+                    <div class="popup__container">
+                        <div class="close">
+                            <span class="fa fa-close"></span>
+
+                        </div>
+                        <h3>↑↑↑ Your game table here ↑↑↑</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside id="sidebar">
+            <div class="inner">
+
+                <div>
+                    <h1>GameBoard</h1>
+                </div>
+
+                <div id="options">
+                    <header class="major">
+                        <h2>Game Board Options</h2>
+                    </header>
+                    <form action="" id="form" method="post">
+                        <div class="form__item">
+                            <input type="number" id="table_row" placeholder="Row">
+                        </div>
+                        <div class="form__item">
+                            <input type="number" id="table_cell" placeholder="Cell">
+                        </div>
+                        <div class="form__item">
+                            <input type="checkbox" id="caption" checked="checked">
+                            <label for="caption">Table name</label><br>
+                        </div>
+                        <div class="form__item">
+                            <input type="checkbox" id="numhorz">
+                            <label for="numhorz">Numeric horizontal</label><br>
+                        </div>
+                        <div class="form__item">
+                            <input type="checkbox" id="numvert">
+                            <label for="numvert">Numeric vertical</label>
+                        </div>
+                        <div class="btn__group">
+                            <button class="button" id="creation">Craete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+</body>
+</html>
